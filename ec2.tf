@@ -3,6 +3,6 @@ resource "aws_instance" "terraform" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terraform-${count.index}"
+    Name = "terraform-ec2"
   }
 }
